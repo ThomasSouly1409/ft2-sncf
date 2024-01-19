@@ -1,0 +1,470 @@
+[
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 44
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 7
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 5
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 16
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 5
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 32
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 26
+    },
+    {
+      "REC_CATEGORIE": "09. Ludospace",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 2
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 17
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 44
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 56
+    },
+    {
+      "REC_CATEGORIE": "07. Monospace compact",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 5
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "11. Cabriolet",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 12
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 3
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 20
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 68
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 12
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 21
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 17
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 4
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 28
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 8
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 2
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 103
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 146
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 42
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 38
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 10
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 10
+    },
+    {
+      "REC_CATEGORIE": "09. Ludospace",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 30
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 6
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 7
+    },
+    {
+      "REC_CATEGORIE": "13. Véhicule utilitaire",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 2
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 6
+    },
+    {
+      "REC_CATEGORIE": "13. Véhicule utilitaire",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "09. Ludospace",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 12
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 131
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 11
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 101
+    },
+    {
+      "REC_CATEGORIE": "09. Ludospace",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 4
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 3
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "6. GPL",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 323
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 19
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 36
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 11
+    },
+    {
+      "REC_CATEGORIE": "08. Monospace",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 6
+    },
+    {
+      "REC_CATEGORIE": "02. SUV B",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 81
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 4
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 25
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 12
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 17
+    },
+    {
+      "REC_CATEGORIE": "07. Monospace compact",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 8
+    },
+    {
+      "REC_CATEGORIE": "01. Citadine",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "07. Monospace compact",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 11
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 37
+    },
+    {
+      "REC_CATEGORIE": "04. SUV C",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 71
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 7
+    },
+    {
+      "REC_CATEGORIE": "05. SUV M",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 27
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "5. Electrique",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 6
+    },
+    {
+      "REC_CATEGORIE": "06. Break",
+      "REC_ENERGIE": "4. Hybride rechargeable",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 2
+    },
+    {
+      "REC_CATEGORIE": "07. Monospace compact",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 10
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 9
+    },
+    {
+      "REC_CATEGORIE": "03. Berline compacte",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 43
+    },
+    {
+      "REC_CATEGORIE": "13. Véhicule utilitaire",
+      "REC_ENERGIE": "2. Diesel",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 1
+    },
+    {
+      "REC_CATEGORIE": "10. Routière",
+      "REC_ENERGIE": "3. Hybride",
+      "REC_BOITE": "Boite manuelle",
+      "Taille_parking": 0
+    },
+    {
+      "REC_CATEGORIE": "11. Cabriolet",
+      "REC_ENERGIE": "1. Essence",
+      "REC_BOITE": "Boite auto.",
+      "Taille_parking": 0
+    }
+  ]

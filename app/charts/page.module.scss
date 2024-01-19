@@ -1,0 +1,58 @@
+.main {
+  width: 1700px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  font-family: var(--font-mono);
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  &_inner {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header {
+    font-size: 0.85rem;
+    z-index: 2;
+  }
+  
+  .content {
+    margin: 30px auto;
+    width: 100%;
+  }
+}
+
+
+.section {
+  background-color: rgba(black, 0.05);
+  padding: 30px;
+  border-radius: 8px;
+
+  & + .section {
+    margin-top: 60px;
+  }
+}
+
+.centre {
+  width: 600px;
+  background-color: yellowgreen;
+}
+
+.chartDroite{
+  width: 500px;
+  background-color: red;
+}
+
+.filtreCentre{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
