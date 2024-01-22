@@ -108,7 +108,7 @@ a {
 
 .hero {
   width: 250px;
-  background-color: green;
+  background-color: white;
 }
 
 #profil {
@@ -117,15 +117,21 @@ a {
 
 .menu {
   display: flex;
-  justify-content: space-between;
   height: 70px;
+  align-items: center;
 }
 
+.txtMenu {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 .titreGauche {
   height: 15px;
   font-weight: 700;
   font-size: larger;
+
 }
 
 #filtre {
@@ -133,3 +139,120 @@ a {
   padding: 50px 25px;
 }
 
+li {
+  list-style: none;
+}
+
+#logo {
+  padding-top: 40px;
+  border-bottom-right-radius: 30%;
+}
+
+#tailleLogo {
+  width: 130px;
+  height: 71px;
+}
+
+#profil {
+  padding-top: 30px;
+}
+
+#nom {
+  padding-top: 15px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+#contenu {
+  display: flex;
+}
+
+#centreCut {
+  background-color: #EFEFEF;
+  height: 1090px;
+}
+
+#affichageDonne {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spongeData1 {
+  width: 180px;
+  color: white;
+  background-color: #171A4D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spongeData {
+  width: 250px;
+  height: 95px;
+  color: white;
+  background-color: #30357E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hautCalendrier {
+  height: 76px;
+  background-color: #30357E;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accroche {
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+#date {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#parMois {
+  margin-right: 20px;
+  box-shadow: 0px 5px 10px #ababab;
+}
+
+.calendrier {
+  height: 380px;
+  background-color: white;
+}
+
+#ligne1 {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+#ligne {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.caseMois {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  width: 120px;
+  height: 115px;
+  background-color: green;
+  border-radius: 30%;
+  padding-top: 45px;
+}
+
+.mois {
+  font-size: 30px;
+  font-weight: bold;
+}

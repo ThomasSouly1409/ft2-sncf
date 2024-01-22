@@ -98,31 +98,31 @@ const Hero =({data, searchParams}) => {
             <div id='partiGauche'>
                 <div id='dataRegion'>
                     <div>
-                        <div>
-                            <Image src={logo} alt="logo" />
+                        <div id='logo'>
+                            <Image id='tailleLogo' src={logo} alt="logo" />
                         </div>
                         <div id='profil'> 
                             <div>
                                 <Image src={pp} alt='photo de profil'></Image>
                             </div>
-                            <div>
+                            <div id='nom'>
                                 <p>Stephane Ferron</p>
                             </div>       
                         </div>
                         <div>
                             <div className='menu'>
                                 <div className='iconGauche'>
-                                    <Image src={tableau} alt='tableau'/>
+                                <Image src={tableau} alt='tableau'/>
                                 </div>
                                 <p className='txtMenu'>Tableau de bord</p>
                             </div>
                             <div className='menu'>
                                 <Image src={tag} alt='epingle'/>
-                                <p>Epinglés</p>
+                                <p className='txtMenu'>Epinglés</p>
                             </div>
                             <div className='menu'>
                                 <Image src={plus} alt='plus'/>
-                                <p>Créer un tableau</p>
+                                <p className='txtMenu'>Créer un tableau</p>
                             </div>
                         </div>
                         <p>vous êtes bien sur {currentRegion}</p>

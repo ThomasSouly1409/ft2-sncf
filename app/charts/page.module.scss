@@ -17,7 +17,6 @@
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content: space-between;
   }
   .header {
     font-size: 0.85rem;
@@ -42,13 +41,12 @@
 }
 
 .centre {
-  width: 600px;
-  background-color: yellowgreen;
+  width: 800px;
+  height: 958px;
 }
 
 .chartDroite{
-  width: 500px;
-  background-color: red;
+  width: 630px;
 }
 
 .filtreCentre{
