@@ -29,12 +29,11 @@ const Centre=({data, searchParams}) => {
     });
 
     const paxTotal = !!data && _.sumBy(data.filter((e) => {
-        if (currentRegion)
-            {if (currentRegion != e.Axe)
-            return 0}
-        if (currentDefaillance)
-            {if (currentDefaillance != e.Defaillance)
-            return 0}
+        if (currentRegion !== "France") {
+            return !!e && e.Axe === currentRegion
+        } else {
+            return e
+        }
     }), function(o: any) {
         return Number(o.Pax); 
     });
@@ -54,18 +53,18 @@ const Centre=({data, searchParams}) => {
     const EHMoyen = Number(EHTotal / nbTrainTotal)
 
     return (
-        <div>
-            <div>
-                <div>
+        <div id='header'>
+            <div id='affichageDonne'>
+                <div className='spongeData1'>
                     {!!mcTotal && mcTotal.toFixed(0)} euros de montant compensable
                 </div>
-                <div>
+                <div className='spongeData'>
                     {trainSupTotal} train supprimé
                 </div>
-                <div>
+                <div className='spongeData'>
                     {paxTotal} personnes impactées
                 </div>
-                <div>
+                <div className='spongeData'>
                     {EHMoyen.toFixed(0)} minutes de retard par train
                 </div>
             </div>

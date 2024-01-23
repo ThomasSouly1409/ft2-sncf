@@ -2,7 +2,6 @@ import { usePathname, useSearchParams } from 'next/navigation';
 import styles from './styles.module.scss'
 import Link from 'next/link'
 
-
 interface HeaderProps {
     current: 'home' | 'sncf' | 'aramis-auto' | 'charts';
     searchParams: Object;
