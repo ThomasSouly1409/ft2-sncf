@@ -130,6 +130,9 @@ const Hero =({data, searchParams}) => {
                     </div>
                     
                 </div>
+                <div id='divPartiFiltre'>
+                    <p id='partiFiltre'>Filters</p>
+                </div>
                 <div id='filtre'>
                     <div>
                         <p id="titreGauche">AXE</p>

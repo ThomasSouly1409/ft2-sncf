@@ -5,6 +5,12 @@ import { ResponsiveTreeMap } from '@nivo/treemap'
 import { useEffect, useState } from 'react';
 import { red } from '@mui/material/colors';
 import _, { filter } from 'lodash'
+import Image from 'next/image'
+import Fav from '../../img/ajtFav.png'
+import accroche from '../../img/Acroche 1.png'
+import flecheGauche from '../../img/flecheGauche.png'
+import flecheDroite from '../../img/flecheDroite.png'
+
 const dataNivo = {
     "name": "nivo",
     "color": "hsl(267, 70%, 50%)",
@@ -456,13 +462,26 @@ const Calendrier = ({data, searchParams}) => {
         <div>
             <div id='parMois'>
                 <div id='hautCalendrier'>
-                    <div className='accroche'></div>
-                    <span id='date'>2023</span>
+                    <div className='Accroche'>
+                        <Image src={accroche}/>
+                    </div>
+                    <div className='fleche'>
+                        <Image src={flecheGauche}/>
+                    </div>
+                    <div>
+                        <span id='date'>2023</span>
+                    </div>
+                    <div className='fleche'>
+                        <Image src={flecheDroite}/>
+                    </div>
+                    <div className='Accroche'>
+                        <Image src={accroche}/>
+                    </div>
                 </div>
                 <div className='calendrier'>
                     <div id='ligne1'>
                         <div className='caseMois'>
-                            <div className='mois'>Jav</div>
+                            <div className='mois'>Jan</div>
                         {/*    <div className='dataMois'>{!!dataUsed && dataUsed.filter((e:any)=> {return !!e && e.Mois_circulation === 1})}</div> */}
                         </div>
                         <div className='caseMois'>
@@ -484,15 +503,15 @@ const Calendrier = ({data, searchParams}) => {
                             <div>Data</div>
                         </div>
                         <div className='caseMois'>
-                            <div className='mois'>Jun</div>
+                            <div className='mois'>Juin</div>
                             <div>Data</div>
                         </div>
                         <div className='caseMois'>
-                            <div className='mois'>Jui</div>
+                            <div className='mois'>Juill</div>
                             <div>Data</div>
                         </div>
                         <div className='caseMois'>
-                            <div className='mois'>Aou</div>
+                            <div className='mois'>Août</div>
                             <div>Data</div>
                         </div>
                     </div>

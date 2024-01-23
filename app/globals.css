@@ -111,6 +111,10 @@ a {
   background-color: white;
 }
 
+#dataRegion {
+  padding-bottom: 20px;
+}
+
 #profil {
   height: 170px;
 }
@@ -163,6 +167,20 @@ li {
   font-size: 16px;
 }
 
+#divPartiFiltre {
+  border-top: 1px solid #AEAEAE;
+}
+
+#partiFiltre {
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+#titreGauche {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
 #contenu {
   display: flex;
 }
@@ -197,6 +215,10 @@ li {
   justify-content: center;
 }
 
+#fav {
+  text-align: right;
+}
+
 #hautCalendrier {
   height: 76px;
   background-color: #30357E;
@@ -206,11 +228,12 @@ li {
   align-items: center;
 }
 
-.accroche {
-  color: white;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
+.Accroche {
+  padding: 0px 15px 35px 15px;
+}
+
+.fleche {
+  padding: 0px 15px;
 }
 
 #date {
@@ -249,12 +272,12 @@ li {
   height: 115px;
   background-color: green;
   border-radius: 30%;
-  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mois {
   font-size: 30px;
   font-weight: bold;
 }
-
-/*dcs/*}

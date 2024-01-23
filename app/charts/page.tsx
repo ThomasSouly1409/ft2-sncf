@@ -1,11 +1,14 @@
+import Link from 'next/link'
 import styles from './page.module.scss'
 import Header from '@ui/header/Header'
+import Image from 'next/image'
 import dataset1 from '../../data/sncf/dataset1.json';
 import Hero from '../contenu/hero';
 import Donne from '../contenu/donne'
 import Centre from '../contenu/donne';
 import Calendrier from '../contenu/calendrier';
 import Carte from '../../img/France.png'
+import Fav from '../../img/ajtFav.png'
 
 export default function ChartsPage({searchParams = {}}) {
     let data;
@@ -44,8 +47,11 @@ export default function ChartsPage({searchParams = {}}) {
                     </div>
                     <div id='contenu'>
                         <div className={styles.centre}>
+                            <div id='fav'>
+                                <Image src={Fav}/>
+                            </div>
                             <div>
-                                <span>carte</span>
+                                <Image src={Carte}/>
                             </div>
                         </div>
                         <div className={styles.chartDroite}>
