@@ -12,7 +12,11 @@ import Fav from '../../img/ajtFav.png'
 
 export default function ChartsPage({ searchParams = {} }) {
     let data;
+<<<<<<< HEAD
     const rangedata: Number = 10500;
+=======
+    const rangedata:Number = 100500;
+>>>>>>> c1b5dca3405d724822fc22c1ea467f837853a026
 
 
     switch (searchParams.range) {

@@ -268,6 +268,7 @@ li {
   flex-direction: column;
   justify-content: center;
   &.yellow {
+<<<<<<< HEAD
     background-color: #8CEDA7;
   }
   &.red {
@@ -278,6 +279,15 @@ li {
   }
   &.green {
     background-color: #09A936;
+=======
+    background-color: yellow;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.green {
+    background-color: green;
+>>>>>>> c1b5dca3405d724822fc22c1ea467f837853a026
   }
 }
 
@@ -287,6 +297,7 @@ li {
 }
 
 .TreeMap-wrapper {
+<<<<<<< HEAD
   margin-right: 15px;
 }
 
@@ -348,4 +359,9 @@ li {
 #imgTrain {
   height: 900px;
   width: 850px
+=======
+  background-color: grey;
+  width: 100%;
+  min-height: 400px;
+>>>>>>> c1b5dca3405d724822fc22c1ea467f837853a026
 }
