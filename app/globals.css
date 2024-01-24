@@ -270,14 +270,29 @@ li {
   color: white;
   width: 120px;
   height: 115px;
-  background-color: green;
+  background-color: grey;
   border-radius: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  &.yellow {
+    background-color: yellow;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.green {
+    background-color: green;
+  }
 }
 
 .mois {
   font-size: 30px;
   font-weight: bold;
+}
+
+.TreeMap-wrapper {
+  background-color: grey;
+  width: 100%;
+  min-height: 400px;
 }

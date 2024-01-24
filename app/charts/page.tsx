@@ -12,7 +12,7 @@ import Fav from '../../img/ajtFav.png'
 
 export default function ChartsPage({searchParams = {}}) {
     let data;
-    const rangedata:Number = 500;
+    const rangedata:Number = 100500;
 
     switch(searchParams.range){
         case 'mensuel':
