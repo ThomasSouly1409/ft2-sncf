@@ -10,35 +10,36 @@ import Calendrier from '../contenu/calendrier';
 import Carte from '../../img/France.png'
 import Fav from '../../img/ajtFav.png'
 
-export default function ChartsPage({searchParams = {}}) {
+export default function ChartsPage({ searchParams = {} }) {
     let data;
-    const rangedata:Number = 500;
+    const rangedata: Number = 10500;
 
-    switch(searchParams.range){
+
+    switch (searchParams.range) {
         case 'mensuel':
-            data = dataset1.slice(0,rangedata).filter((e: any) => {return Number(e.Mois_circulation) === 10})
-        break;
-    
+            data = dataset1.slice(0, rangedata).filter((e: any) => { return Number(e.Mois_circulation) === 10 })
+            break;
+
         case 'trimestriel':
-            data = dataset1.slice(0,rangedata).filter((e: any) => {return Number(e.Mois_circulation) >=7 && Number(e.Mois_circulation) <=9})
-        break;
-    
+            data = dataset1.slice(0, rangedata).filter((e: any) => { return Number(e.Mois_circulation) >= 7 && Number(e.Mois_circulation) <= 9 })
+            break;
+
         case 'annuel':
-            data = dataset1.slice(0,rangedata).filter((e: any) => {return Number(e.Mois_circulation) >= 1 && Number(e.Mois_circulation) <= 10})
-        break;
+            data = dataset1.slice(0, rangedata).filter((e: any) => { return Number(e.Mois_circulation) >= 1 && Number(e.Mois_circulation) <= 10 })
+            break;
     }
-    
+
     return (
         <main className={styles.main}>
             <div className={styles.main_inner}>
                 <div className={styles.header}>
-                    <Hero data={data} searchParams={searchParams}/>
+                    <Hero data={data} searchParams={searchParams} />
                 </div>
                 <div id='centreCut'>
                     <div>
                         <div className={styles.filtreCentre}>
                             <div>
-                                <Header current={'charts'} searchParams={searchParams}/>
+                                <Header current={'charts'} searchParams={searchParams} />
                             </div>
                             <div>
                                 <Centre data={data} searchParams={searchParams}></Centre>
@@ -48,15 +49,15 @@ export default function ChartsPage({searchParams = {}}) {
                     <div id='contenu'>
                         <div className={styles.centre}>
                             <div id='fav'>
-                                <Image src={Fav}/>
+                                <Image src={Fav} />
                             </div>
                             <div>
-                                <Image src={Carte}/>
+                                <Image src={Carte} />
                             </div>
                         </div>
                         <div className={styles.chartDroite}>
                             <div>
-                                <Calendrier data={data} searchParams={searchParams}/>
+                                <Calendrier data={data} searchParams={searchParams} />
                             </div>
                         </div>
                     </div>

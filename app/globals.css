@@ -169,6 +169,8 @@ li {
 
 #divPartiFiltre {
   border-top: 1px solid #AEAEAE;
+  width: 230px;
+  padding-top: 20px;
 }
 
 #partiFiltre {
@@ -249,35 +251,101 @@ li {
 .calendrier {
   height: 380px;
   background-color: white;
-}
-
-#ligne1 {
-  width: 600px;
   display: flex;
-  justify-content: space-around;
-  margin-top: 5px;
-}
-
-#ligne {
-  width: 600px;
-  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 5px;
   justify-content: space-around;
 }
 
 .caseMois {
-  margin-top: 5px;
-  margin-bottom: 5px;
   color: white;
   width: 120px;
   height: 115px;
-  background-color: green;
+  background-color: grey;
   border-radius: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  &.yellow {
+    background-color: #8CEDA7;
+  }
+  &.red {
+    background-color: #FA4D4D;
+  }
+  &.darkRed{
+    background-color: #EC2727;
+  }
+  &.green {
+    background-color: #09A936;
+  }
 }
 
 .mois {
   font-size: 30px;
   font-weight: bold;
+}
+
+.TreeMap-wrapper {
+  margin-right: 15px;
+}
+
+#imgTreeMap {
+  width: 620px;
+}
+
+#txtLog {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+#txtLog2 {
+  font-size: 25px;
+  display: flex;
+}
+
+#login {
+  width: 520px;
+  height: 78px;
+  border-radius: 15px;
+}
+
+.divInput {
+  padding: 10px 0px;
+}
+
+#divCheck {
+  display: flex;
+}
+
+#divButton {
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 520px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+#buttonContinu {
+  font-size: 40px;
+  height: 78px;
+}
+
+#homeLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 900px;
+  padding-bottom: 150px;
+}
+
+#divImgTrain {
+  padding-right: 40px;
+}
+
+#imgTrain {
+  height: 900px;
+  width: 850px
 }

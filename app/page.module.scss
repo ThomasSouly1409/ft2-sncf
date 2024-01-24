@@ -4,8 +4,8 @@
   flex-flow: wrap;
   justify-content: center;
   min-height: 100vh;
-  background-color: white;
-  color: black;
+  background-color: #30357E;
+  color: white;
   padding: 15px;
   font-family: var(--font-mono);
 }
@@ -13,6 +13,9 @@
   width: 100%;
   padding: 30px;
   text-align: center;
+  display: flex;
+  width: 100%;
+
 }
 .main * {
   box-sizing: border-box;
@@ -23,6 +26,10 @@
   font-size: 0.85rem;
   width: 100%;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
